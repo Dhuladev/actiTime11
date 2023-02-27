@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>LOGIN FORM</title>
+</head>
+<body>
+	<form style="background-color: greenyellow; color: black;">
+		<fieldset>
+			<legend align="center" style="background-color: blue; color: ghostwhite;"> LOGIN FORM</legend>
+			<label>User Name :</label>
+			<input type="text" name="UN" required  maxlength="22" title="only character"><br><br>
+			<label>PASSWORD :</label>
+			<input type="text" name="Pass" minlength="5" title="use character and integer"><br><br>
+			<label>EMAIL ID :</label>
+			<input type="text" name="Email" required ><br><br>
+			<label>CONTACT NO:</label>
+			<input type="text" name="Contact no" maxlength="10" title="enter correct to number" pattern="[ start=6 and 7 1-9]{10}"><br><br>
+			<label>PIN CODE :</label>
+			<input type="text" name="Pin Code" required maxlength="6"><br><br>
+			<label>GENDER :</label>
+			<input type="radio" name="Gender" value="Male">
+			<label>Male</label>
+			<input type="radio" name="Gender" value="Female">
+			<label>Female</label>
+			<input type="radio" name="Gender" value="Others">
+			<label>Other</label> 
+			<br><br>
+			<label>DATE OF BIRTH :</label>
+			<input type="DATE" name="DOB"><br><br>
+			<label>BRANCH :</label>
+			<select>
+				<option>select</option>
+				<option>Mechanical</option>
+				<option>Civil</option>
+				<option>Chemical</option>
+				<option>Electrical</option>
+			</select><br><br>
+			<button><a href="RegistrationForm2.html" target="blank">SUBMIT</a></button>
+            <button><a>RESET</a></button>
+        </fieldset>
+		
+	</form>
+
+</body>
+</html>
